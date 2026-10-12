@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Physics-anchored multi-agent reinforcement learning for maritime search and rescue"
+message: "If you use this software, please cite the accompanying paper."
+type: software
+license: MIT
+repository-code: "https://github.com/Xuefeng-Du1121/Peva-Gen"
+authors:
+  - family-names: "Du"
+    given-names: "Xuefeng"
+  - family-names: "Zheng"
+    given-names: "Yuduo"
+  - family-names: "Cheng"
+    given-names: "Yanqi"
+  - family-names: "Yin"
+    given-names: "Li"
+  - family-names: "Li"
+    given-names: "Fengqi"
