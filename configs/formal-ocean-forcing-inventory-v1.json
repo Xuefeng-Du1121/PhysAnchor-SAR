@@ -1,0 +1,623 @@
+{
+  "schema": "ocean-forcing-inventory-v2",
+  "status": "frozen formal protocol",
+  "field_path": "/home/ubuntu-a/data/peva-gen-eval-dev/ocean_system_data_20260913T024902Z/drift-trajectory-system/data_platform/data/raw/environment/copernicus/multobs_currents_east_china_2018_01.nc",
+  "field_sha256": "2f9b6572e95c8bb54531f92e175d585c9046a2b110c320eea6eb697c3c012e5d",
+  "spec_sha256": "250adbb45ecd7bc0643b9313e1f32643385b3e398f78673dca065ee1922cfb0e",
+  "source_sha256": "2febb743ac0a6b91e7be138731c2ff52a7707ddb9cf1cc7aab25d2a2d49fa77c",
+  "config": {
+    "region_m": 40000.0,
+    "n_uavs": 6,
+    "n_targets": 3,
+    "dt_s": 30.0,
+    "horizon_s": 10800.0,
+    "speed_mps": 20.0,
+    "sensing_m": 500.0,
+    "survival_tau_s": 9000.0,
+    "detection_p": 0.85,
+    "packet_drop": 0.1,
+    "radio_range_m": 10000.0,
+    "payload_budget_bytes": 64,
+    "header_bytes": 16,
+    "particles": 2000,
+    "prior_sigma_m": 3000.0,
+    "diffusion_m2s": 2.0,
+    "windage": 0,
+    "forecast_bias_mps": 0.0,
+    "clutter_mean": 0.2,
+    "position_noise_m": 50.0,
+    "step_cost": 0.0,
+    "grid_side": 20,
+    "coverage_mode": "intensity"
+  },
+  "scenarios": [
+    {
+      "id": "train-jan01-area0",
+      "split": "train",
+      "origin_lonlat": [
+        125,
+        30
+      ],
+      "start_utc": 1514764800,
+      "support": {
+        "time": [
+          1514764800.0,
+          1514779200.0
+        ],
+        "time_indices": [
+          0,
+          4
+        ],
+        "latitude": [
+          29.625,
+          30.375
+        ],
+        "latitude_indices": [
+          40,
+          43
+        ],
+        "longitude": [
+          124.625,
+          125.375
+        ],
+        "longitude_indices": [
+          28,
+          31
+        ]
+      }
+    },
+    {
+      "id": "train-jan01-area1",
+      "split": "train",
+      "origin_lonlat": [
+        125.5,
+        30.5
+      ],
+      "start_utc": 1514764800,
+      "support": {
+        "time": [
+          1514764800.0,
+          1514779200.0
+        ],
+        "time_indices": [
+          0,
+          4
+        ],
+        "latitude": [
+          30.125,
+          30.875
+        ],
+        "latitude_indices": [
+          42,
+          45
+        ],
+        "longitude": [
+          125.125,
+          125.875
+        ],
+        "longitude_indices": [
+          30,
+          33
+        ]
+      }
+    },
+    {
+      "id": "train-jan02-area0",
+      "split": "train",
+      "origin_lonlat": [
+        125,
+        30
+      ],
+      "start_utc": 1514851200,
+      "support": {
+        "time": [
+          1514851200.0,
+          1514865600.0
+        ],
+        "time_indices": [
+          24,
+          28
+        ],
+        "latitude": [
+          29.625,
+          30.375
+        ],
+        "latitude_indices": [
+          40,
+          43
+        ],
+        "longitude": [
+          124.625,
+          125.375
+        ],
+        "longitude_indices": [
+          28,
+          31
+        ]
+      }
+    },
+    {
+      "id": "train-jan02-area1",
+      "split": "train",
+      "origin_lonlat": [
+        125.5,
+        30.5
+      ],
+      "start_utc": 1514851200,
+      "support": {
+        "time": [
+          1514851200.0,
+          1514865600.0
+        ],
+        "time_indices": [
+          24,
+          28
+        ],
+        "latitude": [
+          30.125,
+          30.875
+        ],
+        "latitude_indices": [
+          42,
+          45
+        ],
+        "longitude": [
+          125.125,
+          125.875
+        ],
+        "longitude_indices": [
+          30,
+          33
+        ]
+      }
+    },
+    {
+      "id": "train-jan03-area0",
+      "split": "train",
+      "origin_lonlat": [
+        125,
+        30
+      ],
+      "start_utc": 1514937600,
+      "support": {
+        "time": [
+          1514937600.0,
+          1514952000.0
+        ],
+        "time_indices": [
+          48,
+          52
+        ],
+        "latitude": [
+          29.625,
+          30.375
+        ],
+        "latitude_indices": [
+          40,
+          43
+        ],
+        "longitude": [
+          124.625,
+          125.375
+        ],
+        "longitude_indices": [
+          28,
+          31
+        ]
+      }
+    },
+    {
+      "id": "train-jan03-area1",
+      "split": "train",
+      "origin_lonlat": [
+        125.5,
+        30.5
+      ],
+      "start_utc": 1514937600,
+      "support": {
+        "time": [
+          1514937600.0,
+          1514952000.0
+        ],
+        "time_indices": [
+          48,
+          52
+        ],
+        "latitude": [
+          30.125,
+          30.875
+        ],
+        "latitude_indices": [
+          42,
+          45
+        ],
+        "longitude": [
+          125.125,
+          125.875
+        ],
+        "longitude_indices": [
+          30,
+          33
+        ]
+      }
+    },
+    {
+      "id": "train-jan04-area0",
+      "split": "train",
+      "origin_lonlat": [
+        125,
+        30
+      ],
+      "start_utc": 1515024000,
+      "support": {
+        "time": [
+          1515024000.0,
+          1515038400.0
+        ],
+        "time_indices": [
+          72,
+          76
+        ],
+        "latitude": [
+          29.625,
+          30.375
+        ],
+        "latitude_indices": [
+          40,
+          43
+        ],
+        "longitude": [
+          124.625,
+          125.375
+        ],
+        "longitude_indices": [
+          28,
+          31
+        ]
+      }
+    },
+    {
+      "id": "train-jan04-area1",
+      "split": "train",
+      "origin_lonlat": [
+        125.5,
+        30.5
+      ],
+      "start_utc": 1515024000,
+      "support": {
+        "time": [
+          1515024000.0,
+          1515038400.0
+        ],
+        "time_indices": [
+          72,
+          76
+        ],
+        "latitude": [
+          30.125,
+          30.875
+        ],
+        "latitude_indices": [
+          42,
+          45
+        ],
+        "longitude": [
+          125.125,
+          125.875
+        ],
+        "longitude_indices": [
+          30,
+          33
+        ]
+      }
+    },
+    {
+      "id": "train-jan05-area0",
+      "split": "train",
+      "origin_lonlat": [
+        125,
+        30
+      ],
+      "start_utc": 1515110400,
+      "support": {
+        "time": [
+          1515110400.0,
+          1515124800.0
+        ],
+        "time_indices": [
+          96,
+          100
+        ],
+        "latitude": [
+          29.625,
+          30.375
+        ],
+        "latitude_indices": [
+          40,
+          43
+        ],
+        "longitude": [
+          124.625,
+          125.375
+        ],
+        "longitude_indices": [
+          28,
+          31
+        ]
+      }
+    },
+    {
+      "id": "train-jan05-area1",
+      "split": "train",
+      "origin_lonlat": [
+        125.5,
+        30.5
+      ],
+      "start_utc": 1515110400,
+      "support": {
+        "time": [
+          1515110400.0,
+          1515124800.0
+        ],
+        "time_indices": [
+          96,
+          100
+        ],
+        "latitude": [
+          30.125,
+          30.875
+        ],
+        "latitude_indices": [
+          42,
+          45
+        ],
+        "longitude": [
+          125.125,
+          125.875
+        ],
+        "longitude_indices": [
+          30,
+          33
+        ]
+      }
+    },
+    {
+      "id": "train-jan06-area0",
+      "split": "train",
+      "origin_lonlat": [
+        125,
+        30
+      ],
+      "start_utc": 1515196800,
+      "support": {
+        "time": [
+          1515196800.0,
+          1515211200.0
+        ],
+        "time_indices": [
+          120,
+          124
+        ],
+        "latitude": [
+          29.625,
+          30.375
+        ],
+        "latitude_indices": [
+          40,
+          43
+        ],
+        "longitude": [
+          124.625,
+          125.375
+        ],
+        "longitude_indices": [
+          28,
+          31
+        ]
+      }
+    },
+    {
+      "id": "train-jan06-area1",
+      "split": "train",
+      "origin_lonlat": [
+        125.5,
+        30.5
+      ],
+      "start_utc": 1515196800,
+      "support": {
+        "time": [
+          1515196800.0,
+          1515211200.0
+        ],
+        "time_indices": [
+          120,
+          124
+        ],
+        "latitude": [
+          30.125,
+          30.875
+        ],
+        "latitude_indices": [
+          42,
+          45
+        ],
+        "longitude": [
+          125.125,
+          125.875
+        ],
+        "longitude_indices": [
+          30,
+          33
+        ]
+      }
+    },
+    {
+      "id": "validation-jan12",
+      "split": "validation",
+      "origin_lonlat": [
+        127,
+        29
+      ],
+      "start_utc": 1515715200,
+      "support": {
+        "time": [
+          1515715200.0,
+          1515729600.0
+        ],
+        "time_indices": [
+          264,
+          268
+        ],
+        "latitude": [
+          28.625,
+          29.375
+        ],
+        "latitude_indices": [
+          36,
+          39
+        ],
+        "longitude": [
+          126.625,
+          127.375
+        ],
+        "longitude_indices": [
+          36,
+          39
+        ]
+      }
+    },
+    {
+      "id": "validation-jan13",
+      "split": "validation",
+      "origin_lonlat": [
+        127,
+        29
+      ],
+      "start_utc": 1515801600,
+      "support": {
+        "time": [
+          1515801600.0,
+          1515816000.0
+        ],
+        "time_indices": [
+          288,
+          292
+        ],
+        "latitude": [
+          28.625,
+          29.375
+        ],
+        "latitude_indices": [
+          36,
+          39
+        ],
+        "longitude": [
+          126.625,
+          127.375
+        ],
+        "longitude_indices": [
+          36,
+          39
+        ]
+      }
+    },
+    {
+      "id": "test-jan22",
+      "split": "test",
+      "origin_lonlat": [
+        132,
+        28
+      ],
+      "start_utc": 1516579200,
+      "support": {
+        "time": [
+          1516579200.0,
+          1516593600.0
+        ],
+        "time_indices": [
+          504,
+          508
+        ],
+        "latitude": [
+          27.625,
+          28.375
+        ],
+        "latitude_indices": [
+          32,
+          35
+        ],
+        "longitude": [
+          131.625,
+          132.375
+        ],
+        "longitude_indices": [
+          56,
+          59
+        ]
+      }
+    },
+    {
+      "id": "test-jan23",
+      "split": "test",
+      "origin_lonlat": [
+        132,
+        28
+      ],
+      "start_utc": 1516665600,
+      "support": {
+        "time": [
+          1516665600.0,
+          1516680000.0
+        ],
+        "time_indices": [
+          528,
+          532
+        ],
+        "latitude": [
+          27.625,
+          28.375
+        ],
+        "latitude_indices": [
+          32,
+          35
+        ],
+        "longitude": [
+          131.625,
+          132.375
+        ],
+        "longitude_indices": [
+          56,
+          59
+        ]
+      }
+    }
+  ],
+  "audit": {
+    "status": "disjoint",
+    "scenarios": 16,
+    "rule": "disjoint time support AND disjoint geographic support"
+  },
+  "limitations": [
+    "Historical analysis, not issue-time forecasts",
+    "No recorded test targets supplied by this inventory",
+    "Environment support disjointness does not establish unseen trajectory labels",
+    "The original scenario-spec path is unavailable in this project; the immutable parent inventory and its recorded spec SHA-256 are retained."
+  ],
+  "parent_inventory_path": "/home/ubuntu-a/data/peva-gen-eval-dev/runs/ocean-forcing-expanded-development-inventory-v2.json",
+  "parent_inventory_sha256": "e2cdd400ec8831004a84f2cfbe071f9836684878e10d5dbb092fc98b6a1a8572",
+  "formal_freeze": {
+    "frozen_unix": 1789321657.2520704,
+    "host": "ubuntua-Standard-PC-Q35-ICH9-2009",
+    "tool": "peva_sim.freeze_forcing_inventory",
+    "tool_sha256": "ab4ea783e03a98e7f1aa3f1af52f9c127762022aec531b9a8f74d930dbce188d",
+    "field_path": "/home/ubuntu-a/data/peva-gen-eval-dev/ocean_system_data_20260913T024902Z/drift-trajectory-system/data_platform/data/raw/environment/copernicus/multobs_currents_east_china_2018_01.nc",
+    "field_sha256_verified": true,
+    "split_counts": {
+      "train": 12,
+      "validation": 2,
+      "test": 2
+    },
+    "selection_stage": "before final multi-seed training and all test evaluation",
+    "test_access": "locked by formal-study driver unless --unlock-test is explicit"
+  }
+}
